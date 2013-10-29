@@ -5,7 +5,7 @@ var tens = ['','','douăzeci','treizeci','patruzeci','cincizeci',
 var teens = ['zece','unsprezece','doisprezece','treisprezece','paisprezece',
              'cincisprezece','şaisprezece','şaptesprezece','optsprezece','nouăsprezece'];
 
-function toWords (number) {
+function numToWords (number) {
   // Converts numbers to words
   var integer = (number > 1) ? convertThousands(number) + ' lei' : '';
   var floating = float(number);
